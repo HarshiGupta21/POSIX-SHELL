@@ -89,22 +89,22 @@ make
 
 #### Basic Commands
 ```bash
-ameya@ameya-hp:~> pwd
-/home/ameya/Posix-Shell
+harshita@harshita-hp:~> pwd
+/home/harshita/Posix-Shell
 
-ameya@ameya-hp:~> echo "Hello World"
+harshita@harshita-hp:~> echo "Hello World"
 "Hello World"
 
-ameya@ameya-hp:~> ls -la
+harshita@harshita-hp:~> ls -la
 total 64
-drwxrwxr-x 5 ameya ameya 4096 Sep 04 18:30 .
-drwxrwxr-x 8 ameya ameya 4096 Sep 04 18:30 ..
--rw-rw-r-- 1 ameya ameya 1024 Sep 04 18:30 README.md
+drwxrwxr-x 5 harshita harshita 4096 Sep 04 18:30 .
+drwxrwxr-x 8 harshita harshita 4096 Sep 04 18:30 ..
+-rw-rw-r-- 1 harshita harshita 1024 Sep 04 18:30 README.md
 ```
 
 #### Command Chaining
 ```bash
-ameya@ameya-hp:~> pwd; ls; echo "Done"
+harshita@harshita-hp:~> pwd; ls; echo "Done"
 /home/ameya/Posix-Shell
 file1.txt  file2.txt  directory/
 Done
@@ -112,10 +112,10 @@ Done
 
 #### Background Processes
 ```bash
-ameya@ameya-hp:~> sleep 10 &
+harshita@harshita-hp:~> sleep 10 &
 Background process started with PID: 12345
 
-ameya@ameya-hp:~> pinfo 12345
+harshita@harshita-hp:~> pinfo 12345
 Process Status -- S
 memory -- 2048 {Virtual Memory}
 Executable Path -- /usr/bin/sleep
@@ -123,18 +123,18 @@ Executable Path -- /usr/bin/sleep
 
 #### I/O Redirection
 ```bash
-ameya@ameya-hp:~> echo "Hello" > output.txt
-ameya@ameya-hp:~> cat < output.txt
+harshita@harshita-hp:~> echo "Hello" > output.txt
+harshita@harshita-hp:~> cat < output.txt
 Hello
-ameya@ameya-hp:~> echo "World" >> output.txt
+harshita@harshita-hp:~> echo "World" >> output.txt
 ```
 
 #### Pipelines
 ```bash
-ameya@ameya-hp:~> cat file.txt | grep "pattern" | wc -l
+harshita@harshita-hp:~> cat file.txt | grep "pattern" | wc -l
 5
 
-ameya@ameya-hp:~> ls -l | grep "txt" > text_files.txt
+harshita@harshita-hp:~> ls -l | grep "txt" > text_files.txt
 ```
 
 ## 🛠️ Technical Implementation
@@ -196,4 +196,4 @@ The shell has been extensively tested with:
 
 ## 👤 Author
 
-**Ameya Purohit**
+**Harshita Gupta**
