@@ -105,7 +105,7 @@ drwxrwxr-x 8 harshita harshita 4096 Sep 04 18:30 ..
 #### Command Chaining
 ```bash
 harshita@harshita-hp:~> pwd; ls; echo "Done"
-/home/ameya/Posix-Shell
+/home/harshita/Posix-Shell
 file1.txt  file2.txt  directory/
 Done
 ```
